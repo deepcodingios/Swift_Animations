@@ -13,6 +13,7 @@
 		27B984C726AD41E9008D0EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B984C526AD41E9008D0EDD /* Main.storyboard */; };
 		27B984C926AD41EB008D0EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B984C826AD41EB008D0EDD /* Assets.xcassets */; };
 		27B984CC26AD41EB008D0EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B984CA26AD41EB008D0EDD /* LaunchScreen.storyboard */; };
+		27B984D526AD4B4E008D0EDD /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B984D426AD4B4E008D0EDD /* penguin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		27B984C826AD41EB008D0EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27B984CB26AD41EB008D0EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27B984CD26AD41EB008D0EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B984D426AD4B4E008D0EDD /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,18 @@
 				27B984C826AD41EB008D0EDD /* Assets.xcassets */,
 				27B984CA26AD41EB008D0EDD /* LaunchScreen.storyboard */,
 				27B984CD26AD41EB008D0EDD /* Info.plist */,
+				27B984D326AD4B4E008D0EDD /* Content */,
 			);
 			path = Swift_Animations;
 			sourceTree = "<group>";
+		};
+		27B984D326AD4B4E008D0EDD /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				27B984D426AD4B4E008D0EDD /* penguin@2x.png */,
+			);
+			path = Content;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B984CC26AD41EB008D0EDD /* LaunchScreen.storyboard in Resources */,
+				27B984D526AD4B4E008D0EDD /* penguin@2x.png in Resources */,
 				27B984C926AD41EB008D0EDD /* Assets.xcassets in Resources */,
 				27B984C726AD41E9008D0EDD /* Main.storyboard in Resources */,
 			);
@@ -296,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.trianglelabs.Swift-Animations";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.trianglelabs.Swift-Animations";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
